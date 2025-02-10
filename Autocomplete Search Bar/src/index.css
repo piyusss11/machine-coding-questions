@@ -1,0 +1,24 @@
+.heading{
+  text-align: center;
+}
+.input{
+  width: 500px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.suggestions-container{
+  border: 1px solid black;
+  border-top: 0;
+  max-height: 200px;
+  width: 502px;
+  padding-left: 2px;
+  overflow-y: scroll;
+}
+.suggestion:hover{
+  cursor: pointer;
+  background-color: beige;
+  width: 100%;
+}
